@@ -30,5 +30,9 @@ class ParamsExamplesController < ApplicationController
   def counter
     @view_number = params[:number].to_i + 1
   end
+
+  def url_segment_parameters
+    @message = params[:message]
+  end
     
 end
