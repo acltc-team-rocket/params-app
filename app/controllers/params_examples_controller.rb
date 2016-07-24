@@ -34,5 +34,13 @@ class ParamsExamplesController < ApplicationController
   def url_segment_parameters
     @message = params[:message]
   end
+
+  def form_display
+  end
+
+  def form_result
+    @message = params[:message]
+  end
+    
     
 end
